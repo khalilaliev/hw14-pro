@@ -1,0 +1,92 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body {
+	scroll-behavior: smooth;
+}
+picture {
+	display: inline-block;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form input{
+  border: none;
+  outline: 1px solid #282c34;
+  margin-right: 5px;
+  padding: 5px 0;
+  border-radius: 8px;
+  text-indent: 5px;
+  
+}
+.form input::placeholder{
+  font-weight: 700;
+  color: #282c34;
+}
+button{
+  color: #282c34;
+  background: #61dafb;
+  padding: 5px 20px;
+  border: 1px solid #282c3460;
+  cursor: pointer;
+  transition: all .3s linear;
+  border-radius: 8px;
+  font-weight: 700;
+}
+button:hover{
+  background: rgb(14, 200, 252)
+}
+button:active{
+  background: rgb(0, 161, 206)
+}
+
+
